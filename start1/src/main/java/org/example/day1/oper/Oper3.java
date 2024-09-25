@@ -19,7 +19,7 @@ public class Oper3
 
             float div = (float)(a2 + b2 )/2f;
             System.out.println(div);
-
+            JOptionPane.showMessageDialog(null,div);
 
 
         }
