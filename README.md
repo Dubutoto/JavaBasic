@@ -1,2 +1,2 @@
 # JavaBasic
-JavaBasic repositoy for Jave Backend Bootcamp
+JavaBasic repositoy for Java Backend Bootcamp
