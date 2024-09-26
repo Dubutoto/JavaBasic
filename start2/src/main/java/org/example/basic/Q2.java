@@ -6,11 +6,11 @@ package org.example.basic;
         {
 
             int age = 30;
-            float height = 175.5f;
-            float weight = 70.5f;
-            String address = "123 Main St, Anytown, USA";
+            float height = 180.4f;
+            float weight = 79.5f;
+            String address = "Kingsdown St, Holly court, Bristol, United Kingdom";
             String mNumber = "010-1234-5678";
-            String gender = "female";
+            String gender = "male";
             String mathScore = "100점";
 
             System.out.println("age: "+age);
