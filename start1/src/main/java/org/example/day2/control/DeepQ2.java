@@ -11,8 +11,8 @@ public class DeepQ2 {
         JFrame f = new JFrame();    // Initialise large window
         JButton b1 = new JButton();
         JButton b2 = new JButton();
-
         JLabel l1 = new JLabel();
+
         Font font = new Font("SansSerif", Font.BOLD, 20);
         l1.setText("Want to continue?");
         l1.setFont(font);
@@ -35,24 +35,22 @@ public class DeepQ2 {
 
             public void actionPerformed(ActionEvent e) {
 
-                JFrame newF = new JFrame();
-                newF.setSize(300, 200);
-                newF.setTitle("Input");
+            JFrame newF = new JFrame();
 
-                // 새로운 버튼 생성
+            String fNumber = null;
+            String sNumber = null;
 
-                JLabel l1 = new JLabel();
-                l1.setText("첫번째 사람이 숫자를 입력하세요");
-                l1.setFont(font);
-                JButton n1 = new JButton("Cancel");
-                JButton n2 = new JButton("OK");
+            fNumber = JOptionPane.showInputDialog("Input the number(1p)");
+            sNumber = JOptionPane.showInputDialog("Input the number(2p)");
 
-                // 새로운 창에 버튼 추가
-                n1.setBounds(180,-40,60,30);
-                n2.setBounds(260,-40,60,30);
-                newF.add(l1);
-                newF.add(n1);
-                newF.add(n2);
+            if(Double.parseDouble(fNumber) > Double.parseDouble(sNumber)){
+                JOptionPane.showMessageDialog(newF, "첫번째 사람이 이겼습니다");
+            }else if(Double.parseDouble(fNumber) < Double.parseDouble(sNumber)){
+                JOptionPane.showMessageDialog(newF, "두번째 사람이 이겼습니다");
+            }else{
+                JOptionPane.showMessageDialog(newF, "비겼습니다");
+            }
+
 
                 // 창 닫기 설정 및 표시
                 // newF.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); // 창만 닫고 프로그램은 종료하지 않음
