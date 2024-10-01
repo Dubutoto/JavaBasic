@@ -74,7 +74,7 @@ public class AdditionalArrayQ3 {
 
                 case 4:
                     Arrays.sort(score);
-                    System.pr
+                   // System.pr
             }
 
 

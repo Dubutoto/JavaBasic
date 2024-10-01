@@ -20,6 +20,7 @@ public class ArrayQ1 {
             // format으로 열의 너비를 고정: %-15s는 15칸의 문자열, %-10s는 10칸의 문자열, %-10d는 10칸의 정수
             System.out.printf("%-15s %-10d %-10s\n", location[i], cost[i], co[i]);
         }
+
     }
 }
 
