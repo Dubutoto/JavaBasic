@@ -54,11 +54,10 @@ public class StringBasic {
         for (String data : datas) {
             System.out.println(data);
         }
+
         char[] datas2 = s6.toCharArray(); //{'a', 'b', 'c'}
         for (char data2 : datas2) {
             System.out.println(data2);
         }
-
     }
-
 }
