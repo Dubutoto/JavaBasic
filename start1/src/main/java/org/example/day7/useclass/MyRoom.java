@@ -33,9 +33,5 @@ public class MyRoom {
         //OOP, 객체, 메서드, 함수, 멤버변수, 주소, 인스턴스 개념정리.
     }
 
-    public static class Login {
-        public static void main(String[] args) {
 
-        }
-    }
 }
