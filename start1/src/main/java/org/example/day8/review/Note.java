@@ -21,6 +21,7 @@ public class Note {
 
         //Method Overloading
         //It is possible which using same method names
+        //하나의 부품안에는 하나의 기능
 
     }
 }

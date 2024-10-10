@@ -57,8 +57,8 @@ public class Login {
                         if (inputID.equals("root") && inputPW.equals("1234")) {
                              JOptionPane.showMessageDialog(frame, "Login Success");
                             //frame.setTitle("Login Success");
-                            DiaryWriting dw = new DiaryWriting();
-                            dw.diaryWritingUI();
+                            DiaryWriting dw = new DiaryWriting(); //메서드 선언
+                            dw.diaryWritingUI(); //메서드 내부 기능실행
                         } else {
                             // JOptionPane.showMessageDialog(frame, "Invalid ID or Password");
                             frame.setTitle("Invalid ID or Password");
@@ -75,6 +75,7 @@ public class Login {
             }
         });
         //맨끝
+        //하
         frame.setVisible(true);
     }
 }
