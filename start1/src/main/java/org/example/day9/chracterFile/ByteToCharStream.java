@@ -2,7 +2,7 @@ package org.example.day9.chracterFile;
 
 import java.io.*;
 
-public class ByteToCharstream {
+public class ByteToCharStream {
     //글자를 써서, 파일에 저장하고 싶습니다.
     //FileWriter
     //글자를 써서, 네트워크로 전송해야한다.!!
