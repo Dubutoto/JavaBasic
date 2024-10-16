@@ -2,10 +2,12 @@ package org.example.day12.threads;
 
 public class 동시스레드 {
     public static void main(String[] args) {
-        Thread1 t1 = new Thread1();
-        Thread2 t2 = new Thread2();
+        Set1 t1 = new Set1();
+        Set2 t2 = new Set2();
+        Set3 t3 = new Set3();
 
         t1.start();
         t2.start();
+        t3.start();
     }
 }
