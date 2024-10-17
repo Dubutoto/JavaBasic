@@ -1,7 +1,7 @@
 package org.example.day13.상속;
 
 public class ArrayThread extends Thread {
-    String[] foods = {"a", "b", "c", "d", "e", "f"};
+    String[] foods = {"1.png", "2.png", "3.png", "4.png", "5.png"};
 
     public void run(){
         for (int i = 0; i < foods.length; i++) {
