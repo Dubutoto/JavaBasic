@@ -1,11 +1,11 @@
-package org.example.day16.네트워크;
+package org.example.day16.Question;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
-public class Client {
+public class Client1 {
     public static void main(String[] args) throws IOException {
         //ip + port !
         for (int i = 0; i < 1000; i++) {
