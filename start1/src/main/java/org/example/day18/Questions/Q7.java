@@ -1,10 +1,10 @@
-package org.example.day18.람다식;
+package org.example.day18.Questions;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class 람다스트림7 {
+public class Q7 {
     public static void main(String[] args) {
         // 중복을 제거하여 프린트
         List<String> numbers = Arrays.asList("사과", "바나나", "포도", "바나나", "멜론");
