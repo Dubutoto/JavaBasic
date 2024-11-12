@@ -16,7 +16,7 @@ dependencies {
     implementation group: 'org.jsoup', name: 'jsoup', version: '1.18.1'
 // https://mvnrepository.com/artifact/org.apache.poi/poi
     implementation 'org.apache.poi:poi:5.2.3'
-
+    implementation 'mysql:mysql-connector-java:8.0.33' // 버전은 사용 중인 MySQL 서버와 호환되는 최신 버전으로 설정합니다.
     // Apache POI OOXML Library (for Excel files, includes XSSFWorkbook)
     implementation 'org.apache.poi:poi-ooxml:5.2.3'
 }

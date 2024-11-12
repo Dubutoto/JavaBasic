@@ -12,7 +12,7 @@ public class 순차문2 { //Sequential steps2
         // 맑음과 같은지, 다른지 출력!
         System.out.println(answer.equals(answer2));
         JOptionPane.showMessageDialog(null,answer.equals(answer2));
-
+        //str.equals();
         double temp = 20;  //온도
         double humid = 70; //습도
 
