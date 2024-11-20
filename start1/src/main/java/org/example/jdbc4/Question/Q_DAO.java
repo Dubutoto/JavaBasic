@@ -14,7 +14,7 @@ public class Q_DAO {
         // 2. DB 연결
         String url = "jdbc:mysql://localhost:3306/mydb";
         String id = "root";
-        String pw = "Dubutoto22!";
+        String pw = "1234";
         con = DriverManager.getConnection(url, id, pw);
         System.out.println("2. DB 연결 성공!");
     }
@@ -62,6 +62,3 @@ public class Q_DAO {
         return list;
     }
 }
-
-
-
